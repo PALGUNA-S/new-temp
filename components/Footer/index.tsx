@@ -29,20 +29,21 @@ const Footer = () => {
                 className="animate_top w-1/2 lg:w-1/4"
               >
                 <a href="/" className="relative">
-                  <Image
+                <p className="text-2xl font-bold text-black dark:text-white">PS Logo</p>
+                  {/* <Image
                     width={110}
                     height={80}
                     src="/images/logo/logo-light.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
-                  <Image
+                  <Image 
                     width={110}
                     height={80}
                     src="/images/logo/logo-dark.svg"
                     alt="Logo"
                     className="hidden dark:block"
-                  />
+                  /> */}
                 </a>
 
                 <p className="mb-10 mt-5">
